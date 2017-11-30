@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JHCoreLib_Example' do
+  pod 'JHCoreLib', :path => '../'
+
+  target 'JHCoreLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
