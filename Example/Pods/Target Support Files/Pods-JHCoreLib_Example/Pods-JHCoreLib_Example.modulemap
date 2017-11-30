@@ -1,0 +1,6 @@
+framework module Pods_JHCoreLib_Example {
+  umbrella header "Pods-JHCoreLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

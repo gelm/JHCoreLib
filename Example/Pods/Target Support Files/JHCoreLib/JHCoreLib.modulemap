@@ -1,0 +1,6 @@
+framework module JHCoreLib {
+  umbrella header "JHCoreLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
