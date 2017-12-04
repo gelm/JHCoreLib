@@ -10,6 +10,8 @@
 //管理应用的层级关系以及rooViewController
 @interface JHAppManager : NSObject
 
++ (instancetype)shareManager;
+
 @property (nonatomic, strong, readwrite) Class navigationControllerClass;//配置所需要的导航栏控制器Class
 @property (nonatomic, strong, readwrite) Class tabBarControllerClass;//配置所需要的TabBarControllerClass
 

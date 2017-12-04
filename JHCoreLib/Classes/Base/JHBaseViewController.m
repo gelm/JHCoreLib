@@ -72,8 +72,14 @@
 }
 
 - (void)showBackItem {
-//    UIButton* btn = [UIButton buttonWithImage:[UIImage imageNamed:@"item_back_image"] title:nil target:self action:@selector(backItemAction:)];
-//    [self addItemForLeft:YES withItem:btn spaceWidth:0];
+    UIButton* btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"返回" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont systemFontOfSize:14];
+    btn.contentEdgeInsets = UIEdgeInsetsMake(5, 5, 5, 5);
+    [btn sizeToFit];
+    [btn addTarget:self action:@selector(backItemAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self addItemForLeft:YES withItem:btn spaceWidth:0];
 }
 
 - (void)backItemAction:(UIButton*)button {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JHCoreLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This is a baseLib of iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'JHCoreLib' => ['JHCoreLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'JHCoreLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'MJRefresh'
   s.dependency 'MJExtension'
