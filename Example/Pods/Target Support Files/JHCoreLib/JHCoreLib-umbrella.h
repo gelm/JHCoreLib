@@ -9,6 +9,7 @@
 #import "JHBasePageViewController.h"
 #import "JHBaseTableViewController.h"
 #import "JHBaseViewController.h"
+#import "JHCoreLib.h"
 
 FOUNDATION_EXPORT double JHCoreLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char JHCoreLibVersionString[];

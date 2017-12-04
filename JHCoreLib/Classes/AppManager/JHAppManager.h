@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //管理应用的层级关系以及rooViewController
 @interface JHAppManager : NSObject
